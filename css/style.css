@@ -8,6 +8,13 @@ body{
     --footer-text: #D9DBE1;
     --footer: #AAAAAA;
 }
+
+                                    /* ----------------------------------------------
+                                                    First Section Start 
+                                    ------------------------------------------------*/
+                        
+            /* This is the first section of this website. This is the css section where we styled .half-width, h1, p, img and flex them. So that they set together inline.  */
+
 .first-section{
     display: flex;
     justify-content: center;
@@ -16,30 +23,55 @@ body{
 }
 .half-width{
     width: 580px;
+    position: relative;
+}
+.half-width h1{
+    font-size: 41px;
+    font-weight: 700;
+    color: var(--primary);
+
+}
+.half-width p{
+    font-size: 15px;
+    Line-height: 20px;
+    font-weight: 600;
+    color: var(--primary);
+
 }
 .half-width img{
-    /* background-image: url(images/Circle-design.svg); */
+    /* background: url(images/Circle-design.svg); */
     width: 440px;
     height: 414px;
-    margin-top: 50px;
-    margin-left: 40px;
+    margin-top: 80px;
+    margin-left: 50px;
 }
 .btn{
     background-color: var(--button);
     color: var(--pure);
     text-decoration: none;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 700;
     border: none;
     border-radius: 25px;
-    padding: 12px 22px;
+    padding: 12px 28px;
+    margin-left: 20px;
     margin-top: 15px;
+    cursor: pointer;
     box-shadow: 5px 5px 10px var(--footer);
+    transition: all 0.5s; 
+    position: absolute; 
 }
 .btn .fa-arrow-right{
     font-size: 12px;
+    width: 28.45px;
     margin-left: 10px;
 }
 .btn:hover{
-    
+    transform: scale(1.1);
+    color: var(--primary);
+    background-color: var(--pure);
+    border: 2px solid var(--button);
 }
+ /* ----------------------------------------------
+                                                    First Section End 
+                                    ------------------------------------------------*/
