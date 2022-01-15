@@ -18,7 +18,7 @@ body{
 
                     /* header section star */
 
-header{
+/* header{
         width: 1190px;
         margin-left: 5rem;
         margin-top: 2rem;
@@ -37,7 +37,7 @@ nav a{
     font-size: 18px;
     margin-right: 20px;
     color: var(--product-name);
-}
+} */
 
                             /* Header section end */
 
@@ -237,7 +237,7 @@ nav a{
                         /* Subscribe Section Start */
 
 
-.sub-sec{
+/* .sub-sec{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
@@ -269,7 +269,7 @@ nav a{
   #subscribe-btn{
     margin-top: 1px;
     margin-left: 20px;
-  }
+  } */
 
 
                                                 /* Subscribe section End */
@@ -328,6 +328,18 @@ footer h1{
         flex-direction: column;
         align-items: center;
         justify-content: center;
+    }
+    .half-width h1{
+        font-size: 20px;
+        text-align: center;
+    }
+    .half-width p{
+        font-size: 14px;
+        text-align: center;
+    }
+    .half-width img{
+        width: 100%;
+        
     }
     .collections{
         grid-template-columns: repeat(1, 1fr);
