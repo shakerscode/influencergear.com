@@ -50,7 +50,7 @@ nav a{
 
 
 
-.first-section{
+.container{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -77,10 +77,9 @@ nav a{
 }
 .half-width img{
     background-image: url(images/Circle-design.svg);
-    width: 440px;
-    height: 414px;
-    margin-top: 80px;
-    margin-left: 50px;
+    width: 80%;
+    /* margin-top: 80px;
+    margin-left: 50px; */
 }
 .btn{
     background-color: var(--button);
@@ -315,7 +314,7 @@ footer h1{
     header{
         display: none;
     }
-    .first-section{
+    .container{
         width: 100%;
         flex-direction: column;
         align-items: center;
@@ -336,7 +335,7 @@ footer h1{
         text-align: center;
     }
     .half-width img{
-        width: 100%;
+        width: 80%;
         
     }
     .collections{
