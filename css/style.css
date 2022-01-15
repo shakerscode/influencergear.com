@@ -57,8 +57,9 @@ nav a{
 
 }
 .half-width{
-    width: 580px;
-    position: relative;
+    width: 40%;
+    padding: 2%;
+    
     
 }
 .half-width h1{
@@ -75,7 +76,7 @@ nav a{
 
 }
 .half-width img{
-    /* background: url(images/Circle-design.svg); */
+    background-image: url(images/Circle-design.svg);
     width: 440px;
     height: 414px;
     margin-top: 80px;
@@ -94,7 +95,7 @@ nav a{
     cursor: pointer;
     box-shadow: 5px 5px 10px var(--footer);
     transition: all 0.5s; 
-    position: absolute; 
+    
 }
 .btn .fa-arrow-right{
     font-size: 12px;
@@ -111,28 +112,31 @@ nav a{
                                                     First Section End 
                                     ------------------------------------------------*/
 
-.companys-logo{
+/* .companys-logo{
+    display: none;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
 }
 .logo{
+    display: none;
     width: 1000px;
     height: 110px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-top: .5px solid lightgray;
-    border-bottom: 1px solid lightgray;
-    margin-left: 9rem;
+    /* border-top: .5px solid lightgray;
+    border-bottom: 1px solid lightgray; */
+    /* margin-left: 9rem;
     margin-top: 100px;
   }
 
 .logo img{
+    display: none;
     width: 55px;
     height: 31px;  
     margin-left: 3rem;  
     align-content: center;
-}
+} */ */
 
 
 
@@ -159,16 +163,19 @@ nav a{
     font-size: 28px;
     color: var(--primary);
 }
-
 .popular-collection{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-}                                  
-.collections{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.collections{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px 10px;
+
+}                                  
+
 .items{
     width: 329px;
     height: 476px;
@@ -178,12 +185,14 @@ nav a{
     border-radius: 5px;
     overflow: hidden;
     
-}
+} 
+
 .items img{
     width: 300px;
     height: 256px;
     padding: 15px 15px;
-}  
+} 
+
 .items-info{
     margin-top: -25px;
     padding-left: 15px;
@@ -220,7 +229,7 @@ nav a{
     font-weight: 700;
     margin-top: 40px;
     margin-left: 80%;
-} 
+}
 
                             /* Popular Section End */
 
@@ -304,64 +313,33 @@ footer h1{
                             /* Mobile Devices */
 
 
-@media only screen and (max-width:688px) {
-   
-    
+@media only screen and (max-width: 788px) {
+    header{
+        display: none;
+    }
     .first-section{
+        width: 100%;
         flex-direction: column;
-    }              
+        align-items: center;
+    }
     .half-width{
         width: 100%;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        margin-left: 2rem;
-    }
-    .half-width h1{
-        text-align: center;
-        font-size: 30px
-    }
-    .half-width p{
-        text-align: center;
-        font-size: 16px;
-    }
-    .half-width img{
-        justify-content: center;
-        align-items: center;
-        width: 350px;
-        height: 350px;
-        margin-left: 2rem;
-        margin-top: 6.5rem;
-    }
-    .btn{
-        margin-left: 90px;
-    }
-    .companys-logo{
         display: flex;
-        justify-content: center;
-        
-    }
-    .logo{
-        width: 100%;
-        height: 310px;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
-        border-top: 1px solid lightgray;
-        border-bottom: 1px solid lightgray;
-        
-      }
-      .logo img{
-        width: 75px;
-        height: 31px;  
-        padding-top: .5rem;
-        margin-left: -6rem;  
-        align-content: center;
+        justify-content: center;
+    }
+    .collections{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .see-more-link{
+        color: var(--button);
+        font-size: 12px;
+        font-weight: 700;
+        margin-top: 40px;
+        margin-left: 80%;
+        margin-bottom: 10px;
     }
     
-
-
-
-
 
 }
