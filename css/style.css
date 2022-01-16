@@ -365,7 +365,7 @@ footer h1{
 
     .collections{
         grid-template-columns: repeat(1, 1fr);
-        width: 100%;
+        width: 96%;
         overflow: hidden;
        
     }
@@ -406,10 +406,10 @@ footer h1{
       }
       .input-text{
             padding: 1rem 3rem;
-            margin-left: 1.5rem;
+            margin-left: 2.3rem;
       }
       .sub-btn{
-        margin-left: -1rem;
+        margin-left: 0rem;
       }
 
             /* Subscribe section End */
@@ -442,6 +442,9 @@ footer h1{
         margin-left: 20rem;
         
     } 
+
+                /* Subscribe secton start */
+
     .subscribe{
         width: 93%;
         display: flex;
@@ -467,11 +470,13 @@ footer h1{
        font-size: 15px;
    }
    .input-text{
-         padding: 1rem 10rem;
-         margin-left: 7.5rem;
+         padding: 1rem 11rem;
+         margin-left: 5.5rem;
    }
    .sub-btn{
      margin-left: 11rem;
    }
+
+   /* Subscribe secton start */
     
 }
