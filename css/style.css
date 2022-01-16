@@ -290,16 +290,8 @@ footer h1{
                             /* Mobile Devices */
 
 
-@media only screen and (max-width: 788px) {
+@media only screen and (max-width: 688px) {
 
-         /* body responsive start */
-
-    body{
-        margin: 0;
-         
-    }
-
-        /* body responsive end */
 
         /* header section star */
 
@@ -420,7 +412,60 @@ footer h1{
 
     footer{
         width: 100%;
-        
+        overflow: hidden;
     }
      
+}
+
+
+            /* Tablet Reasponsive Start */
+
+
+@media only screen and (min-width: 688px) and (max-width: 992px)  {
+
+    .collections{
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        overflow: hidden;
+       
+    }
+    .see-more-link{
+        color: var(--button);
+        font-size: 20px;
+        font-weight: 700;
+        margin-left: 20rem;
+        
+    } 
+    .subscribe{
+        width: 93%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        margin-left: 1.5rem;
+        margin-bottom: 3rem;
+        padding-bottom: 1rem;
+        overflow: hidden;
+        
+       }
+       .subscribe-text{
+        width: 100%;
+    }
+    
+    .subscribe-text h1{
+        font-size: 20px;
+        text-align: center;
+   }
+   .subscribe-text p{
+       text-align: center;
+       font-size: 15px;
+   }
+   .input-text{
+         padding: 1rem 10rem;
+         margin-left: 7.5rem;
+   }
+   .sub-btn{
+     margin-left: 11rem;
+   }
+    
 }
