@@ -16,28 +16,10 @@ body{
 }
 
 
-                    /* header section star */
+                    /* header section start */
 
-/* header{
-        width: 1190px;
-        margin-left: 5rem;
-        margin-top: 2rem;
-}
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-nav h1{
-    font-size: 25px;
-}
-
-nav a{
-    text-decoration: none;
-    font-size: 18px;
-    margin-right: 20px;
-    color: var(--product-name);
-} */
+ 
+ 
 
                             /* Header section end */
 
@@ -266,6 +248,9 @@ nav a{
   #subscribe-btn{
       margin-left: 7rem;
   }
+  .sub-btn{
+      
+  }
  
 
 
@@ -313,15 +298,15 @@ footer h1{
 
     body{
         margin: 0;
+         
     }
 
         /* body responsive end */
 
         /* header section star */
 
-    header{
-        display: none;
-    }
+  
+
 
             /* header section end */
 
